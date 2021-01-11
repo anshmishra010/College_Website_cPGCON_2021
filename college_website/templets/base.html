@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sinhagad Institute</title>
+        <link type="text/css" href="{% static 'stylesheets/bootstrap/bootstrap.min.css' %}" rel="stylesheet">
+        <base href="/">
+    </head>
+    <body>
+        {% include "navigation_bar.html" %}
+        {% block content %}
+            replace me
+        {% endblock %}
+    </body>
+    <script src="{% static 'scripts/bootstrap/bootstrap.bundle.min.js'%}" ></script>
+    <script src="{% static 'scripts/jquery/dist/jquery.min.js'%}"></script>
+    <script  src="{% static 'scripts/popper.js/dist/umd/popper.min.js'%}"></script>
+</html>
