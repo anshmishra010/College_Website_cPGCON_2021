@@ -1,0 +1,24 @@
+.jumbotron {
+    padding: 5%;
+    background-color: white;
+    max-height: 50%;
+}
+
+.jumbotron-logo{
+    padding: 4%;
+}
+
+.jumbotron-logo img{
+    height: auto;
+    width: 100%;
+}
+.jumbotron-title1 {
+    font-size: 1.5vw;
+}
+.jumbotron-title2 {
+    font-size: 2.5vw;
+}
+.jumbotron-title3 {
+    font-size: 2.2vw;
+}
+

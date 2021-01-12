@@ -1,0 +1,54 @@
+
+body{
+    display : block;
+}
+/* jumbotron */
+.myjumbotron {
+    margin-top: 5%;
+    max-height: 700px;
+    background-color:white;
+}
+
+.jumbotron-logo{
+    padding: 4%;
+}
+
+.jumbotron-logo img{
+    height: auto;
+    width: 100%;
+}
+.jumbotron-title1 {
+    font-size: min(1.6vw, 1.6em);
+}
+.jumbotron-title2 {
+    font-size: min(2.8vw, 2em);
+
+}
+.jumbotron-title3 {
+    font-size: min(2.5vw,2em);
+}
+
+.center-panel{
+    padding: 0px 2%;
+}
+.information-panel{
+    padding : 0px 5%;
+    margin: 0px;
+   
+}
+
+.legend{
+    width: auto;
+    padding: 2%;
+}
+
+.fieldset-container{
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #4285F4;
+    border-radius: 5px;
+    
+}
