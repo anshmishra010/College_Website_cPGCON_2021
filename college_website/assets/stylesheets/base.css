@@ -1,0 +1,29 @@
+body, html{
+    height: 90%;
+    width: 100%;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    min-height: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    /* height: 100%; */
+    /* padding-bottom:15vw; */
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 120px;
+}
+
+.footer-wrapper{
+    display: flex;
+    position: static;
+    width: 100%;
+    align-self: bottom;
+    margin-top:  -120px;
+}

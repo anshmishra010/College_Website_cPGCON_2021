@@ -3,16 +3,27 @@
 <html>
     <head>
         <title>Sinhagad Institute</title>
-        <link type="text/css" href="{% static 'stylesheets/bootstrap/bootstrap.min.css' %}" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'stylesheets\font-awesome-4.7.0\css\font-awesome.min.css' %}">
+        <link type="text/css" href="{% static 'stylesheets/base.css' %}" rel="stylesheet">
+        <link type="text/css" href="{% static 'stylesheets/bootstrap/bootstrap.css' %}" rel="stylesheet">
         <base href="/">
     </head>
    
     <body>
-        {% include "navigation_bar.html" %}
-        {% block content %}
-            replace me
-           
-        {% endblock %}
+        <div>
+            {% include "navigation_bar.html" %}
+        </div>
+        <Div class="wrapper">
+       
+            {% block content %}
+                replace me
+            {% endblock %}
+        </Div>
+        <div class="footer-wrapper">
+            {% include "footer.html" %}
+        </div>
+      
+      
     </body>
     
     <script src="{% static 'scripts/bootstrap/bootstrap.bundle.min.js'%}" ></script>
