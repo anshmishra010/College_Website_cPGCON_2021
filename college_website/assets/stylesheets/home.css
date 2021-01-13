@@ -1,11 +1,23 @@
-.jumbotron {
-    padding: 5%;
-    background-color: white;
-    max-height: 50%;
+
+body{
+    font-family: arial, "Times New Roman",Helvetica, Verdana, "Noto Sans", sans-serif;
+}
+
+.push{
+    height: 10vw;
+    background-color: red;
+
+}
+   
+/* jumbotron */
+.myjumbotron {
+    margin-top: 5%;
+    max-height: 700px;
+    background-color:white;
 }
 
 .jumbotron-logo{
-    padding: 4%;
+    align-items: top;
 }
 
 .jumbotron-logo img{
@@ -13,12 +25,65 @@
     width: 100%;
 }
 .jumbotron-title1 {
-    font-size: 1.5vw;
+    font-weight: 400;
+    font-size: min(1.5vw, 1.5em);
 }
 .jumbotron-title2 {
-    font-size: 2.5vw;
+    font-weight: 700;
+    font-size: min(2.8vw, 2em);
+
 }
 .jumbotron-title3 {
-    font-size: 2.2vw;
+    font-weight: 600;
+    font-size: min(2.2vw,1.7em);
 }
 
+.center-panel{
+    padding: 0px;
+}
+.information-panel{
+    padding : 0px 2%;
+    margin: 0px;
+   
+}
+
+.legend{
+    width: auto;
+    padding: 2%;
+}
+
+.fieldset-container{
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #4285F4;
+    border-radius: 5px;
+    
+}
+
+/* side panel */
+
+.side-panel{
+    padding: 10px 2%;
+    color: white;
+}
+
+.card{
+    margin-top : 20px;
+    border-color: #4285F4;
+}
+.card-heading{
+    height:50px;
+    justify-content: center;
+}
+
+.card-body{
+    min-height: 200px;
+    max-width: 500px;
+}
+
+.card-heading-text{
+    padding: 10px;
+}
