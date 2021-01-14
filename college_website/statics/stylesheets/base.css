@@ -13,11 +13,9 @@ body, html{
     flex-direction: column;
     flex-grow: 1;
     align-items: center;
-    /* height: 100%; */
-    /* padding-bottom:15vw; */
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding-bottom: 120px;
+    padding-bottom: 410px;
 }
 
 .footer-wrapper{
@@ -25,5 +23,5 @@ body, html{
     position: static;
     width: 100%;
     align-self: bottom;
-    margin-top:  -120px;
+    margin-top: -400px;
 }

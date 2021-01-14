@@ -63,6 +63,24 @@ body{
     
 }
 
+.information-panel-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.information-panel-body-img{
+    display: flex;
+    width: 90%;
+    padding: 30px;
+}
+
+.information-panel-body-text{
+    display: flex;
+}
+
+
 /* side panel */
 
 .side-panel{

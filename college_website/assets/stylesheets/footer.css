@@ -66,9 +66,21 @@
     width: 100%;
 }
 
+.footer-top-right{
+    justify-content: center;
+    padding-top: 80px ;
+    
+}
+
 .footer-menu-item{
     text-decoration: none;
     color: lightgray;
+}
+
+.footer-menu-item:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 .footer-menu-title{
@@ -76,4 +88,14 @@
     color: white;
     font-weight: bold;
     padding-bottom: 10px;
+}
+
+.footer-bottom{
+    display: flex;
+    color: lightgray;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: 12px;
+    padding: 10px;
 }
