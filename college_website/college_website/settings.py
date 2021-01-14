@@ -31,7 +31,7 @@ SECRET_KEY = 'on3catp6=i@$(sen1fgkt+5r2f#tc(k@f0zid9h3od7t(z$n)m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["127.0.0.1" , "pratikap41.pythonanywhere.com"]
 
 
 # Application definition

@@ -1,8 +1,21 @@
 .navbar{
     color: white;
-    height: 30%;
+    height: 40%;
+    min-height: 6vh;
+
 }
 .nav-link:hover{
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.274);
+    font-weight: bolder;
+}
+
+.nav-link{
+    font-size: max(1.4vh, 1.1vw);
+    padding: 20px;
+    font-weight: normal;
+}
+
+.navbar-brand{
+
+    font-size: max(1.5vh, 1.2vw);
+    font-weight: bold;
 }

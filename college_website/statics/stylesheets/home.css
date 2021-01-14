@@ -39,7 +39,7 @@ body{
 }
 
 .center-panel{
-    padding: 0px;
+    padding-bottom: 50px;
 }
 .information-panel{
     padding : 0px 2%;
@@ -62,6 +62,7 @@ body{
     border-radius: 5px;
     
 }
+
 
 
 
