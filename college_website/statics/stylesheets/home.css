@@ -63,22 +63,6 @@ body{
     
 }
 
-.information-panel-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.information-panel-body-img{
-    display: flex;
-    width: 90%;
-    padding: 30px;
-}
-
-.information-panel-body-text{
-    display: flex;
-}
 
 
 /* side panel */
@@ -104,4 +88,9 @@ body{
 
 .card-heading-text{
     padding: 10px;
+}
+
+.contact-us{
+    width: 60%;
+    padding: 1%;
 }

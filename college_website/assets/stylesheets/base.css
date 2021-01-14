@@ -15,7 +15,7 @@ body, html{
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
-
+    padding-bottom: 410px;
 }
 
 .footer-wrapper{
@@ -23,5 +23,5 @@ body, html{
     position: static;
     width: 100%;
     align-self: bottom;
-  
+    margin-top: -400px;
 }

@@ -4,7 +4,7 @@
 
 <link href="{% static 'stylesheets/home.css'%}" rel="stylesheet" >
 
-<div  class="container-fluid">
+<div  class="container-fluid p-0">
     <!-- jumbotron -->
     <div class="container-xl">
         <div class=" container-fluid myjumbotron">
@@ -38,43 +38,81 @@
             <div class="row center-panel m-0">
                 <!-- information panal -->
                 <div class="col-lg-8 col-mid-8 col-sm-12 information-panel ">
-                    <div class="">
-                        <fieldset class=" fieldset-container shadow">
-                            <legend class="legend"><strong>ABOUT THE INSTITUTE</strong></legend>
-                            <div class="information-panel-body">
-                                <div  class="information-panel-body-img">
-                                     <img src="{% static 'images/college1.jpg' %}" width="90%">
-                                 </div>
-                                 <div class="information-panel-body-text" >
-                                    <p class=" text-justify m-3 px-2">
-                                        The Sinhgad Group of Educational Institutes, spread over Maharashtra have a presence to reckon with.
-                                        The Group is benchmarked in every aspect. It struck its foundation in 1993 to transform the dream of 
-                                        its visionary architect Founder President Prof. M. N. Navale into a palpable reality. The entire Sinhgad Group has convincingly evolved,
-                                        into the most sought after education destination. Every Institute is duly accredited by NBA, 
-                                        approved by AICTE and affiliated to Savitribai Phule Pune University. Its Smt. Kashibai Navale Medical College subscribes
-                                        to the code of the IMC. Every Institute has an Independent presence with enviable state-of-the-art infrastructure and all the 
-                                        facilities and resources, to label it an ideal place for learning. Invariably every campus has an impressive Research Centre and 
-                                        extensively stocked Library. It Comprises Institutes in its fold, run by capable and qualified resource people, drawn from various
-                                        disciplines. The entire Sinhgad Educational conglomerate continues in its search for excellence.
-                                    </p>
-                                 </div>
-                           </div>
+
+                    <div class="d-flex">
+                        <fieldset class="d-flex flex-column justify-content-center fieldset-container p-4" >
+                            <legend class="legend text-uppercase"><strong> About The Institute</strong> </legend>
+                            <div class="">
+                                <img class="img-fluid" src="{% static 'images/college1.jpg' %}" alt="college_image" width="100%">
+                            </div>
+                            <div class="text-justify pt-5">
+                                <p>
+                                    The Sinhgad Group of Educational Institutes, spread over Maharashtra have a presence to reckon with. 
+                                    The Group is benchmarked in every aspect. It struck its foundation in 1993 to transform the dream of its visionary architect Founder
+                                    President Prof. M. N. Navale into a palpable reality. The entire Sinhgad Group has convincingly evolved, into the most sought 
+                                    after education destination. Every Institute is duly accredited by NBA, approved by AICTE and affiliated to Savitribai Phule 
+                                    Pune University. Its Smt. Kashibai Navale Medical College subscribes to the code of the IMC. Every Institute has an Independent
+                                    presence with enviable state-of-the-art infrastructure and all the facilities and resources, to label it an ideal place for learning.
+                                    Invariably every campus has an impressive Research Centre and extensively stocked Library. It Comprises Institutes in its fold,
+                                    run by capable and qualified resource people, drawn from various disciplines.
+                                    The entire Sinhgad Educational conglomerate continues in its search for excellence.
+                                 </p>
+                            </div>
                         </fieldset>
                     </div>
-                    <div class="">
-                        <fieldset class="fieldset-container shadow">
-                            <legend class="legend"><strong>ABOUT THE DEPARTMENT</strong></legend>
-                            <p class=" text-justify m-3 px-2">
-                                Department of Computer Engineering was started in 1986 with the intake of 60 and intake is increased to 120 in the academic year 2012-2013. Department has completed its silver jubilee in year 2011. The department is accredited thrice by National Board of Accreditation, New Delhi. The department has introduced with ME (Computer Engineering) in the year 2010 with the intake of 18. Department has excellent infrastructure and human resources to cater both these courses.
 
-                                The department has well qualified and experienced staff. We have excellent record of results and placements. Department is enriched with the laboratories with de-facto standards. Laboratories are well equipped with latest software and hardware. Students are trained in Computer Programming for engineering applications to meet the IT Industry challenges.
+                    <div class="d-flex">
+                        <fieldset class="d-flex flex-column justify-content-center fieldset-container p-4" >
+                            <legend class="legend text-uppercase"><strong> About The Department</strong> </legend>
+                            <div class="">
+                                <img class="img-fluid" src="{% static 'images/department.jpg' %}" alt="college_image" width="100%">
+                            </div>
+                            <div class="text-justify pt-5">
+                                <p>
+                                    Department of Computer Engineering was started in 1986 with the intake of 60 and 
+                                    intake is increased to 120 in the academic year 2012-2013. Department has
+                                     completed its silver jubilee in year 2011. The department is accredited thrice
+                                      by National Board of Accreditation, New Delhi. The department has introduced 
+                                      with ME (Computer Engineering) in the year 2010 with the intake of 18. 
+                                      Department has excellent infrastructure and human resources to cater both these 
+                                      courses.<br><br>
 
-                                Department has tie up with NVIDIA and has setup NVIDIA GPU Teaching Centre housing four workstations & IoT based NVIDIA Jetson embedded board which gives exposure to students on parallel and concurrent programming. Also the department has tie up with IIT Powai for AAKASH R&D Project. The department has tie up with MiTu Skillologies, Nashik for Big Data Analytics Centre of Excellence to provide students with big data analytics platform. IRT Incubation Centre, Microsoft Student Partner Program, IBM Academic Initiative and NPTEL Local Centre are other initiatives in the department which has been proved as an extra advantage to the department. Department has also tie up with ESDS Software private Ltd. Nashik for Cloud Computing – Centre of Excellence for the exposure of student on Cloud platform.
-
-                                Department focuses on building the student enough competent to get placed in well known companies. ACES (Association of Computer Engineering Students) is the student association, which looks into the various co-curricular activities in the department. The department organizes various expert lectures, educational visits, programming contest for students. Department also runs CSI student chapter under the CSI Nasik region, ISTE student chapter. The overall goal of the department is to make brilliant and dynamic students to meet the industry challenges.
-                            </p>
+                                   The department has well qualified and experienced staff. We have excellent record 
+                                    of results and placements. Department is enriched with the laboratories with
+                                     de-facto standards. Laboratories are well equipped with latest software and 
+                                     hardware. Students are trained in Computer Programming for engineering 
+                                     applications to meet the IT Industry challenges.<br><br>
+    
+                                    Department has tie up with NVIDIA and has setup NVIDIA GPU Teaching Centre housing 
+                                    our workstations & IoT based NVIDIA Jetson embedded board which gives
+                                     exposure to students on parallel and concurrent programming. Also the
+                                    department has tie up with IIT Powai for AAKASH R&D Project. The department
+                                     has tie up with MiTu Skillologies, Nashik for Big Data Analytics Centre of 
+                                    Excellence to provide students with big data analytics platform. IRT Incubation
+                                    Centre, Microsoft Student Partner Program, IBM Academic Initiative and NPTEL
+                                     Local Centre are other initiatives in the department which has been proved as
+                                    an extra advantage to the department. Department has also tie up with ESDS 
+                                    Software private Ltd. Nashik for Cloud Computing – Centre of Excellence for
+                                    the exposure of student on Cloud platform.<br><br>
+    
+                                   Department focuses on building the student enough competent v
+                                    to get placed in well known companies. ACES (Association of Computer Engineering
+                                     Students) is the student association, which looks into the various co-curricular
+                                      activities in the department. The department organizes various expert lectures, 
+                                      educational visits, programming contest for students. Department also runs CSI 
+                                      student chapter under the CSI Nasik region, ISTE student chapter. The overall 
+                                      goal of the department is to make brilliant and dynamic students to meet the 
+                                      industry challenges.
+                                 </p>
+                            </div>
                         </fieldset>
                     </div>
+
+
+
+
+                    
+                 
                 </div>
 
                 <!-- side panal -->

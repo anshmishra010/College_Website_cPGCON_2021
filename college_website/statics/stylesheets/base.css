@@ -16,12 +16,15 @@ body, html{
     justify-content: flex-start;
     flex-wrap: wrap;
     padding-bottom: 410px;
+    margin-bottom: -400px;
 }
+
+
 
 .footer-wrapper{
     display: flex;
     position: static;
     width: 100%;
     align-self: bottom;
-    margin-top: -400px;
+   
 }
