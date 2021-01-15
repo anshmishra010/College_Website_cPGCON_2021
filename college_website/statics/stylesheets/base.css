@@ -18,7 +18,7 @@ body, html{
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding-bottom: 410px;
+    padding-bottom: 420px;
     margin-bottom: -400px;
 }
 
@@ -30,4 +30,36 @@ body, html{
     width: 100%;
     align-self: bottom;
    
+}
+
+.legend{
+    font-size: min(max(2vh,2vw), 30pt) ;
+    width: auto;
+    padding: 5%;
+}
+
+
+.fieldset-container{
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #4285F4;
+    border-radius: 5px;
+    padding: 5%;
+}
+
+.reponsive-text-1{
+    font-size: min( max(1.5vh,1.5vw), 80%);
+}
+
+.reponsive-text-h5{
+    font-weight: bold;
+    font-size: min( max(1.8vh,1.8vw), 100%);
+}
+
+
+.bold-text{
+    font-weight: bold;
 }

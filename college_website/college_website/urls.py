@@ -22,6 +22,5 @@ from django.conf.urls import url
 urlpatterns = [
     path('', include('home.urls')),
     path('admin/', admin.site.urls),
-
-   
+    path('call-for-paper/', include('call_for_paper.urls'))
 ]
