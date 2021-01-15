@@ -30,7 +30,7 @@ body{
 }
 .jumbotron-title2 {
     font-weight: 700;
-    font-size: max(min(2.8vw, 2em), 70%);
+    font-size: max(min(2.8vw, 2em), 40%);
 
 }
 .jumbotron-title3 {

@@ -7,40 +7,54 @@
     color: white;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: auto;
     height: 100px;
     padding-top: 5%;
     margin: 0px;
 }
 
 .footer-logo-img{
+    padding: 0px;
+    margin: 0px;
     display: flex;
-    width: 30%;
-    height: 30%;
-    flex-basis: 50px;
- 
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo-img img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 600px) {
+    .footer-logo-img img{
+        display: flex;
+        width: 60px;
+        height: 50px;
+    }
 }
 
 .footer-logo-text{
-    padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 2%;
     display: flex;
-    height: 80px;
+    height: 100px;
     width: auto;
-    flex-basis: 400px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 
 #secondary-logo-text{
+    padding: 0px;
     font-weight: 300;
-    font-size: 70%;
+    font-size: min(70%,max(2vh,2vw));
 }
 
 #primary-logo-text{
     font-weight: 500;
-    font-size: 90%;
+    font-size: min(90%,max(2.5vh,2.5vw));
 }
 .footer-slogan{
     padding-top: 10%;

@@ -8,12 +8,16 @@
     font-weight: bolder;
 }
 
+.navbar-toggler{
+    padding: 0px;
+    width: 40px;
+}
 .nav-link{
     font-size: 80%;
     font-weight: normal;
 }
 
 .navbar-brand{
-    font-size: min(max(1.4vh, 1.4vw),90%);
+    font-size: min(max(1.2vh, 1.2vw),80%);
     font-weight: bold;
 }
