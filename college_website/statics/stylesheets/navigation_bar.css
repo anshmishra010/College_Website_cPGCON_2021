@@ -9,13 +9,11 @@
 }
 
 .nav-link{
-    font-size: max(1.4vh, 1.1vw);
-    padding: 20px;
+    font-size: 80%;
     font-weight: normal;
 }
 
 .navbar-brand{
-
-    font-size: max(1.5vh, 1.2vw);
+    font-size: min(max(1.5vh, 1.5vw),100%);
     font-weight: bold;
 }

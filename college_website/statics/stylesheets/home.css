@@ -39,7 +39,7 @@ body{
 }
 
 .center-panel{
-    padding-bottom: 50px;
+    padding: 3%;
 }
 .information-panel{
     padding : 0px 2%;
@@ -48,8 +48,9 @@ body{
 }
 
 .legend{
+    font-size: min(max(2vh,2vw), 30pt) ;
     width: auto;
-    padding: 2%;
+    padding: 5%;
 }
 
 .fieldset-container{
@@ -57,13 +58,16 @@ body{
     height: auto;
     min-height: 300px;
     border-style: solid;
-    border-width: 2px;
+    border-width: 0.1px;
     border-color: #4285F4;
     border-radius: 5px;
-    
+    padding: 5%;
 }
 
-
+.lead{
+    font-size: min(max(2vh,2vw), 90%);
+    word-spacing: 0.8vh;
+}
 
 
 /* side panel */
