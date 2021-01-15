@@ -26,16 +26,16 @@ body{
 }
 .jumbotron-title1 {
     font-weight: 400;
-    font-size: min(1.5vw, 1.5em);
+    font-size: max(min(1.5vw, 1.5em), 40%);
 }
 .jumbotron-title2 {
     font-weight: 700;
-    font-size: min(2.8vw, 2em);
+    font-size: max(min(2.8vw, 2em), 70%);
 
 }
 .jumbotron-title3 {
     font-weight: 600;
-    font-size: min(2.2vw,1.7em);
+    font-size: max(min(2.2vw,1.7em), 50%);
 }
 
 .center-panel{

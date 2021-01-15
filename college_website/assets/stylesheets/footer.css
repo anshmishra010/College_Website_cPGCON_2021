@@ -25,19 +25,22 @@
     padding-top: 10px;
     padding-left: 20px;
     display: flex;
-    width: 70%;
     height: 80px;
+    width: auto;
     flex-basis: 400px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 
-
-
 #secondary-logo-text{
     font-weight: 300;
-    font-size: 50%;
+    font-size: 70%;
+}
+
+#primary-logo-text{
+    font-weight: 500;
+    font-size: 90%;
 }
 .footer-slogan{
     padding-top: 10%;

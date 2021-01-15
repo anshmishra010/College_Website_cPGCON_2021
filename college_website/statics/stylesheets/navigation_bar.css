@@ -1,8 +1,8 @@
 .navbar{
     color: white;
     height: 40%;
-    min-height: 6vh;
-
+    max-height: 40%;
+    overflow: hidden;
 }
 .nav-link:hover{
     font-weight: bolder;
@@ -14,6 +14,6 @@
 }
 
 .navbar-brand{
-    font-size: min(max(1.5vh, 1.5vw),100%);
+    font-size: min(max(1.4vh, 1.4vw),90%);
     font-weight: bold;
 }
