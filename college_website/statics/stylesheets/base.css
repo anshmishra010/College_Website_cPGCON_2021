@@ -5,6 +5,7 @@ body, html{
     padding: 0;
     margin: 0;
     font-size: 15pt;
+    overflow-x: hidden;
 }
 .wrapper{
     min-height: 100%;
