@@ -53,7 +53,7 @@ body, html{
 }
 
 .reponsive-text-0{
-    font-size: min( max(1.6vh,1.6vw), 80%);
+    font-size: min( max(1.5vh,1.5vw), 80%);
 }
 
 .reponsive-text-1{
@@ -63,6 +63,16 @@ body, html{
 .reponsive-text-h5{
     font-weight: bold;
     font-size: min( max(1.8vh,1.8vw), 100%);
+}
+
+.reponsive-text-h4{
+    font-weight: bold;
+    font-size: min( max(2vh, 2vw), 110%);
+}
+
+.reponsive-text-h3{
+    font-weight: bold;
+    font-size: min( max(2.2vh, 2.2vw), 130%);
 }
 
 

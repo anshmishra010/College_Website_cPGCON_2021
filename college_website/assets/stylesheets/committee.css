@@ -1,0 +1,80 @@
+.pannel{
+    display: flex;
+    width: 100%;
+    border: solid;
+    border-width: 1px;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.pannel-header{
+    display: flex;
+    width: 100%;
+    min-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pannel-header-title{
+    margin: 0px;
+    font-weight: 500;
+    padding: 2%;
+    font-size: min( max(2.4vh, 2.4vw), 150%);
+}
+
+.pannel-body{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pannel-element-row-special{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 99%;
+    padding: 1%;
+}
+
+.pannel-element-row-special div{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    width:100%;
+    padding: 1%;
+    background-color:  #007bff;
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    color: #f8f9fa;
+    border-radius: 15px;
+}
+
+.pannel-element-row{
+    display: flex;
+    align-self: center;
+    width: 99%;
+    padding: 1%;
+}
+
+.pannel-element{
+    height: 100%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+
+.pannel-element div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1%;
+    align-items: center;
+    justify-content: center;
+
+}
+
