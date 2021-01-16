@@ -14,6 +14,7 @@ body{
     margin-top: 5%;
     max-height: 700px;
     background-color:white;
+    z-index: 0;
 }
 
 .jumbotron-logo{
@@ -28,16 +29,60 @@ body{
 }
 .jumbotron-title1 {
     font-weight: 400;
-    font-size: max(min(1.4vw, 1.4em), 20%);
+    font-size: max(min(1.4vw, 1.4em), 30%);
 }
 .jumbotron-title2 {
     font-weight: 700;
-    font-size: max(min(2.6vw, 1.8em), 40%);
+    font-size: max(min(2.6vw, 1.8em), 50%);
 
 }
 .jumbotron-title3 {
     font-weight: 600;
-    font-size: max(min(2.1vw,1.6em), 30%);
+    font-size: max(min(2.1vw,1.6em), 40%);
+}
+
+.jumbotron-title4 {
+    font-weight: 600;
+    font-size: max(min(1.6vw,1.2em), 30%);
+}
+
+.jumbotron-banner-title {
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: max(min(2.8vw, 2em), 70%);
+}
+
+.title-casing{
+    padding-top: 1%; 
+    padding-bottom: 1%; 
+    border-radius: 10px;
+}
+
+/* event-banner */
+.banner-heading{
+    font-weight: bold; font-size: min( max(2.8vh,2.8vw), 200%);
+    padding: 4%;
+    padding-bottom: 0px ;
+}
+
+.banner-title{
+    padding: 4%;
+    font-size: min(max(2vh,2vw), 30pt) ;
+}
+
+.banner-info-text{
+    padding : 4%;
+    padding-top: 0px;
+}
+
+.banner-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img img{
+    align-self: center;
 }
 
 .center-panel{
@@ -75,8 +120,11 @@ body{
 }
 
 .card-body{
-    min-height: 200px;
+    min-width: 100%;
+    width: 100%;
     max-width: 500px;
+    padding: 2%;
+  
 }
 
 .card-heading-text{
@@ -87,4 +135,58 @@ body{
     width: 60%;
     padding: 1%;
     margin: 0px;
+}
+
+/* id-card */
+
+
+.id-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    border: solid;
+    border-color: lightgray;
+    border-width: 0.1px;
+    margin: 2%;
+}
+
+.id-card div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.id-card-img img{
+    align-self: center;
+    border-radius: 100px;
+}
+
+.id-card-text{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+.id-card-name{
+   font-size: min( max(2.4vh,2.4vw), 90%);
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.id-card-post{
+    font-size: min( max(1.8vh,1.8vw), 60%);
+     font-weight: 200;
+     align-self: flex-start;
+     color: gray;
+     font-style : italic;
+ }
+
+#marquee{
+    padding: 5%;
+    color: black;
 }

@@ -9,28 +9,63 @@
     <div class="container-xl">
         <div class=" container-fluid myjumbotron">
             <div class="row">
-                <div class="col-3 jumbotron-logo">
+                <div class="col-2  jumbotron-logo p-0">
                     <img src="{% static 'logos/sinhgad_logo.jpeg' %}"/>
                 </div>
                 
-                <div class="container col-6 ">
+                <div class="container  col-8 p-0  ">
                     <p class="text-center text-uppercase jumbotron-title1 text-muted h3 m-0 mt-2 "> sinhgad technical education society's </p>
                     <p class="text-center text-uppercase jumbotron-title2 h1 m-0 mt-2"> smt. kashibai navale college of engineering, vadgaon-411041</p>
                     <p class="text-center text-uppercase jumbotron-title3 h2 text-danger m-0 mt-2 "> Department of computer engineering</p>
                     <p class="text-center text-uppercase jumbotron-title1 text-muted h3  m-0 mt-2"> In Association With </p>
-                    <p class="text-center text-uppercase jumbotron-title3 h2 m-0 mt-2">Savitribai Phule Pune University, Pune</p>
-
-                    
+                    <p class="text-center text-uppercase jumbotron-title4 h2 m-0 mt-2">Board of Studies in Computer Engineering</p>
+                    <p class="text-center text-uppercase jumbotron-title4 h2 m-0 ">Savitribai Phule Pune University, Pune</p>
+                    <p class="text-center text-primary jumbotron-banner-title h1  ">cPGCON 2021</p>
                 </div>
-                <div class="col-3 jumbotron-logo" >
+                <div class="col-2 jumbotron-logo p-0" >
                     <img src="{% static 'logos/sppu_logo.png' %}"/>
                 </div>
+            </div>
+            <div class="d-flex justify-content-center flex-column">
+                <p class="text-center text-uppercase title-casing jumbotron-title2 h1 m-0 mt-2 text-light bg-primary" > 10<sup>th</sup> post graduate conference for computer engineering</p>
+                <p class=" text-center text-center title-casing jumbotron-title2 h1 m-0 mt-2 text-danger  " style="width: 30%; align-self: center; border-radius: 50px; " > 
+                    15<sup>Th</sup> Feb - 28<sup>Th</sup> Feb
+                </p>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid bg-light mb-5 mt-5" style="height: 500px;">
+    <!-- event banner -->
+    <div class="container-fluid bg-light  mt-5">
+        <div class="widget-title text-primary">
+            <h2 class="banner-heading"><strong>About <span style="text-transform: lowercase !important">c</span>PGCON 2019</strong></h2>
+            <div class="borderbd"></div>
+        </div>
+        <div class="container-xl">
+            <h3 class="head_left_underline banner-title text-danger">cPGCON 2021</h3>
+            <div class="banner-info-text row ">
+                <div class="text-justify col-12 col-lg-7 col-md-12 col-sm-12 col-xs-12 order-last order-lg-first order-md-first order-sm-last">
+                    <p class=" lead ">
+                        cPGCON-2019 is a Post Graduate Conference, an annual event for PG students and 
+                        research scholars, organized by the Department of Computer Engineering, 
+                        Dr. D. Y. Patil Institute of Technology, Pimpri, in association with Board of Studies in
+                         Computer Engineering, Savitribai Phule Pune University. This conference will
+                         ide a platform to discuss latest innovations, share experience, and learn 
+                         new developments in the area. This conference will work as a forerunner
+                          and facilitator for the analytical and practical research. PG students 
+                          and research scholars present their research work in the frontiers of 
+                          domain expertise and innovation. The important objective of this conference 
+                          to develop association with world leading knowledge centres and expertise
+                    </p>
+                </div>
+                <div class=" banner-img col-12 col-lg-5 col-md-12 col-sm-12 col-xs-12 order-first  order-lg-last order-md-last order-sm-first ">
+                    <img class="img-fluid " src="{% static 'logos/sinhgad_logo.jpeg' %}">
+                </div>
+            </div>
             
+        </div>
+        
+
     </div>
 
     <!-- central panal -->
@@ -39,7 +74,7 @@
                 <!-- information panal -->
                 <div class="col-lg-8 col-mid-8 col-sm-12 information-panel ">
 
-                    <div class="d-flex mb-5">
+                    <div class="d-flex mb-3">
                         <fieldset class="d-flex flex-column justify-content-center fieldset-container " >
                             <legend class="legend text-uppercase"><strong> About The Institute</strong> </legend>
                             <div class="">
@@ -60,7 +95,7 @@
                         </fieldset>
                     </div>
 
-                    <div class="d-flex mb-5">
+                    <div class="d-flex mb-3">
                         <fieldset class="d-flex flex-column justify-content-center fieldset-container " >
                             <legend class="legend text-uppercase"><strong> About The Department</strong> </legend>
                             <div class="">
@@ -114,7 +149,52 @@
                         <div class = "card-heading bg-primary ">
                             <h5 class="card-heading-text">Latest News</h5>
                         </div>
+                        <div class="card-body " id="marquee">
+                            <marquee behavior="scroll" direction="up">
+                                <p class=" reponsive-text-0 "><strong>Registration on EasyChair :  </strong> 16<sup>th </sup>to 31<sup>st</sup> December 2018</p>
+                                <p class=" reponsive-text-0 "><strong>Registration on EasyChair :  </strong> 16<sup>th </sup>to 31<sup>st</sup> December 2018</p>
+                                <p class=" reponsive-text-0 "><strong>Registration on EasyChair :  </strong> 16<sup>th </sup>to 31<sup>st</sup> December 2018</p>
+                                <p class=" reponsive-text-0 "><strong>Registration on EasyChair :  </strong> 16<sup>th </sup>to 31<sup>st</sup> December 2018</p>
+                            </marquee>
+                        </div>
+                    </div>
+
+
+
+                    <!--  -->
+                    <div class="card " >
+                        <div class = "card-heading bg-primary">
+                            <h5 class="card-heading-text">Chief Patron</h5>
+                        </div>
                         <div class="card-body">
+
+                            <div class="id-card">
+                                <div class="row">
+                                    <div class="id-card-img col-4" >
+                                        <img src="{% static 'images/navle.jpg'%}" height="70px" width="70px"> 
+                                    </div>
+                                    <!-- <div class="col-1 m-0 p-0"></div> -->
+                                    
+                                    <div class="id-card-text col-8  flex-column ">
+                                        <p class="id-card-name text-danger m-0 " >Hon. Prof. M. N. Navale</p>
+                                        <p class="id-card-post m-0 ">Founder, President, Sinhgad Institutes.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="id-card">
+                                <div class="row">
+                                    <div class="id-card-img col-4" >
+                                        <img src="{% static 'images/navle.jpg'%}" height="70px" width="70px"> 
+                                    </div>
+                                    <!-- <div class="col-1 m-0 p-0"></div> -->
+                                    
+                                    <div class="id-card-text col-8  flex-column ">
+                                        <p class="id-card-name text-danger m-0 " >Hon. Prof. M. N. Navale</p>
+                                        <p class="id-card-post m-0 ">Founder, President, Sinhgad Institutes.</p>
+                                    </div>
+                                </div>
+                            </div>
                         
                         </div>
                     </div>
@@ -124,36 +204,149 @@
                     <!--  -->
                     <div class="card " >
                         <div class = "card-heading bg-primary">
-                            <h5 class="card-heading-text">Latest News</h5>
+                            <h5 class="card-heading-text">Patron</h5>
                         </div>
                         <div class="card-body">
-                        
+
+                            <div class="id-card">
+                                <div class="row">
+                                    <div class="id-card-img col-4" >
+                                        <img src="{% static 'images/navle.jpg'%}" height="70px" width="70px"> 
+                                    </div>
+                                    <!-- <div class="col-1 m-0 p-0"></div> -->
+                                    
+                                    <div class="id-card-text col-8  flex-column ">
+                                        <p class="id-card-name text-danger m-0 " >Hon. Prof. M. N. Navale</p>
+                                        <p class="id-card-post m-0 ">Founder, President, Sinhgad Institutes.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="id-card">
+                                <div class="row">
+                                    <div class="id-card-img col-4" >
+                                        <img src="{% static 'images/navle.jpg'%}" height="70px" width="70px"> 
+                                    </div>
+                                    <!-- <div class="col-1 m-0 p-0"></div> -->
+                                    
+                                    <div class="id-card-text col-8  flex-column ">
+                                        <p class="id-card-name text-danger m-0 " >Hon. Prof. M. N. Navale</p>
+                                        <p class="id-card-post m-0 ">Founder, President, Sinhgad Institutes.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="id-card">
+                                <div class="row">
+                                    <div class="id-card-img col-4" >
+                                        <img src="{% static 'images/navle.jpg'%}" height="70px" width="70px"> 
+                                    </div>
+                                    <!-- <div class="col-1 m-0 p-0"></div> -->
+                                    
+                                    <div class="id-card-text col-8  flex-column ">
+                                        <p class="id-card-name text-danger m-0 " >Hon. Prof. M. N. Navale</p>
+                                        <p class="id-card-post m-0 ">Founder, President, Sinhgad Institutes.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="id-card">
+                                <div class="row">
+                                    <div class="id-card-img col-4" >
+                                        <img src="{% static 'images/navle.jpg'%}" height="70px" width="70px"> 
+                                    </div>
+                                    <!-- <div class="col-1 m-0 p-0"></div> -->
+                                    
+                                    <div class="id-card-text col-8  flex-column ">
+                                        <p class="id-card-name text-dangery m-0 " >Hon. Prof. M. N. Navale</p>
+                                        <p class="id-card-post m-0 ">Founder, President, Sinhgad Institutes.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
+
+                      <!--  -->
+                    <div class="card " >
+                        <div class = "card-heading bg-primary">
+                            <h5 class="card-heading-text">Convener</h5>
+                        </div>
+                        <div class="card-body">
+
+                            <div class="id-card">
+                                <div class="row">
+                                    <div class="id-card-img col-4" >
+                                        <img src="{% static 'images/navle.jpg'%}" height="70px" width="70px"> 
+                                    </div>
+                                    <!-- <div class="col-1 m-0 p-0"></div> -->
+                                    
+                                    <div class="id-card-text col-8  flex-column ">
+                                        <p class="id-card-name text-danger m-0 " >Hon. Prof. M. N. Navale</p>
+                                        <p class="id-card-post m-0 ">Founder, President, Sinhgad Institutes.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="id-card">
+                                <div class="row">
+                                    <div class="id-card-img col-4" >
+                                        <img src="{% static 'images/navle.jpg'%}" height="70px" width="70px"> 
+                                    </div>
+                                    <!-- <div class="col-1 m-0 p-0"></div> -->
+                                    
+                                    <div class="id-card-text col-8  flex-column ">
+                                        <p class="id-card-name text-danger m-0 " >Hon. Prof. M. N. Navale</p>
+                                        <p class="id-card-post m-0 ">Founder, President, Sinhgad Institutes.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        
+                        </div>
+                    </div>
 
 
                     <!--  -->
                     <div class="card " >
                         <div class = "card-heading bg-primary">
-                            <h5 class="card-heading-text">Latest News</h5>
+                            <h5 class="card-heading-text">Co-Convener</h5>
                         </div>
-                        <div class="card-body">
-                        </div>
+                        <div class="card-body ">
 
 
 
-                        <!--  -->
-                    </div>
-                    <div class="card " >
-                        <div class = "card-heading bg-primary">
-                            <h5 class="card-heading-text">Latest News</h5>
+                                <div class="id-card">
+                                    <div class="row">
+                                        <div class="id-card-img col-4" >
+                                            <img src="{% static 'images/navle.jpg'%}" height="70px" width="70px"> 
+                                        </div>
+                                        <!-- <div class="col-1 m-0 p-0"></div> -->
+                                        
+                                        <div class="id-card-text col-8  flex-column ">
+                                            <p class="id-card-name text-danger m-0 " >Hon. Prof. M. N. Navale</p>
+                                            <p class="id-card-post m-0 ">Founder, President, Sinhgad Institutes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="id-card">
+                                    <div class="row">
+                                        <div class="id-card-img col-4" >
+                                            <img src="{% static 'images/navle.jpg'%}" height="70px" width="70px"> 
+                                        </div>
+                                        <!-- <div class="col-1 m-0 p-0"></div> -->
+                                        
+                                        <div class="id-card-text col-8  flex-column ">
+                                            <p class="id-card-name text-danger m-0 " >Hon. Prof. M. N. Navale</p>
+                                            <p class="id-card-post m-0 ">Founder, President, Sinhgad Institutes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
                         </div>
-                        <div class="card-body">
-                        
-                        </div>
-                    
-                </div>
+                     </div>
             </div>  
         </div>
     </div>

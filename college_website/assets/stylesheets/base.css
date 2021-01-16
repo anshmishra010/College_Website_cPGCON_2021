@@ -36,6 +36,7 @@ body, html{
     font-size: min(max(2vh,2vw), 30pt) ;
     width: auto;
     padding: 5%;
+    margin: 0px;
 }
 
 
@@ -50,8 +51,12 @@ body, html{
     padding: 5%;
 }
 
+.reponsive-text-0{
+    font-size: min( max(1.6vh,1.6vw), 80%);
+}
+
 .reponsive-text-1{
-    font-size: min( max(1.5vh,1.5vw), 80%);
+    font-size: min( max(1.6vh,1.6vw), 90%);
 }
 
 .reponsive-text-h5{
@@ -62,4 +67,48 @@ body, html{
 
 .bold-text{
     font-weight: bold;
+}
+
+.borderbd {
+    position: relative;
+    width: 180px;
+    background:#007bff;
+    height: 2px;
+    margin: 10px auto;
+}
+
+.borderbd:before {
+    position: absolute;
+    border-radius: 100%;
+    left: 0px;
+    content: "";
+    width: 10px;
+    background: #007bff;
+    height: 10px;
+    top: -5px;
+}
+
+.borderbd:after {
+    position: absolute;
+    border-radius: 100%;
+    right: 0px;
+    content: "";
+    width: 10px;
+    background: #007bff;
+    height: 10px;
+    top: -5px;
+}
+
+.widget-title {
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+
+.head_left_underline:after {
+    border-top: 2px solid #007bff;
+    display: block;
+    width: 40px;
+    content: "";
+    margin-top: 10px;
 }
