@@ -2,8 +2,6 @@
     color: white;
     height: 40%;
     max-height: 40%;
-    overflow: hidden;
-    z-index: 100;
 }
 .nav-link:hover{
     font-weight: bolder;

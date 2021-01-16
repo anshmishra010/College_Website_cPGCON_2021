@@ -20,6 +20,7 @@ body, html{
     flex-wrap: wrap;
     padding-bottom: 420px;
     margin-bottom: -400px;
+    z-index: 0;
 }
 
 

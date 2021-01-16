@@ -4,7 +4,7 @@
 
 <link href="{% static 'stylesheets/home.css'%}" rel="stylesheet" >
 
-<div  class="container-fluid p-0">
+<div  class="container-fluid p-0" style="z-index: 0;">
     <!-- jumbotron -->
     <div class="container-xl">
         <div class=" container-fluid myjumbotron">
@@ -36,15 +36,16 @@
     </div>
 
     <!-- event banner -->
-    <div class="container-fluid bg-light  mt-5">
+    <div class="container-fluid  mt-5" style="background-color: #f1f1f1">
         <div class="widget-title text-primary">
             <h2 class="banner-heading"><strong>About <span style="text-transform: lowercase !important">c</span>PGCON 2021</strong></h2>
             <div class="borderbd"></div>
         </div>
         <div class="container-xl">
-            <h3 class="head_left_underline banner-title text-danger">cPGCON 2021</h3>
+            
             <div class="banner-info-text row ">
-                <div class="text-justify col-12 col-lg-7 col-md-12 col-sm-12 col-xs-12 order-last order-lg-first order-md-first order-sm-last">
+                <div class=" d-flex flex-column text-justify col-12 col-lg-7 col-md-12 col-sm-12 col-xs-12 order-last order-lg-first order-md-first order-sm-last">
+                    <h3 class="head_left_underline banner-title text-danger">cPGCON 2021</h3>
                     <p class=" lead ">
                         cPGCON-2021 is a Post Graduate Conference, an annual event for PG students and 
                         research scholars, organized by the Department of Computer Engineering, 
@@ -59,7 +60,7 @@
                     </p>
                 </div>
                 <div class=" banner-img col-12 col-lg-5 col-md-12 col-sm-12 col-xs-12 order-first  order-lg-last order-md-last order-sm-first ">
-                    <img class="img-fluid " src="{% static 'logos/sinhgad_logo.jpeg' %}">
+                    <img class="img-fluid " src="{% static 'logos/cPGCON .png' %}">
                 </div>
             </div>
             

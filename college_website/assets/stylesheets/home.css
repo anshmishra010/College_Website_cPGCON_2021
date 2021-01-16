@@ -66,13 +66,13 @@ body{
 }
 
 .banner-title{
-    padding: 4%;
     font-size: min(max(2vh,2vw), 30pt) ;
+    padding-bottom: 4%;
+    padding-top: 4%;
 }
 
 .banner-info-text{
     padding : 4%;
-    padding-top: 0px;
 }
 
 .banner-img{
