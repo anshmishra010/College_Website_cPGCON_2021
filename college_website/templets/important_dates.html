@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load static%}
+{% block content %}
+<link href="{% static 'stylesheets/home.css'%}" rel="stylesheet" >
+<div class="container-xl text-primary  ">
+
+    <div class="widget-title text-primary p-2">
+        <div>
+            <h2 class="banner-heading"><strong>Important Dates</strong></h2>
+            <div class="borderbd"></div>
+        </div>
+    </div>
+
+
+  
+    <fieldset class="d-flex flex-column justify-content-center fieldset-container " >
+        <legend class="legend text-uppercase"><strong>Important Dates</strong></legend>
+        <div class=" ">
+            <div class="table table-responsive" style="align-self: center;">
+                <table class="table-bordered reponsive-text-1 ">
+                    <tr class="bg-primary text-white bold-text text-center"><td>	Event	</td><td>	Date	</td></tr>
+                    <tr><td>	Start Date of Paper Submission on EasyChair      </td><td>	02<sup>nd</sup> January    2020	</td></tr>
+                    <tr><td>	Last Date of Paper Submission:      </td><td>	26<sup>th</sup> January  2020  	</td></tr>
+                    <tr><td>	Review Comment :                    </td><td>	05<sup>th</sup> March  2020	</td></tr>
+                    <tr><td>	Camera Ready Submission:            </td><td>	10<sup>th</sup> March  2020	</td></tr>
+                    <tr><td>	Conference Date:                    </td><td>	10<sup>th</sup> to 11<sup>th</sup> July 2020</td></tr>
+                </table>
+            </div>
+        </div>
+    </fieldset>
+</div>
+{% endblock%}

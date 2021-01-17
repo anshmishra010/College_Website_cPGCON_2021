@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% load static%}
+{% block content %}
+<link href="{% static 'stylesheets/home.css'%}" rel="stylesheet" >
+<div class="container-xl text-primary  p-0 ">
+
+    <div class="widget-title text-primary p-2 ">
+        <h2 class="banner-heading"><strong>Author Registration</strong></h2>
+        <div class="borderbd"></div>
+    </div>
+
+    <div class="registration-form-download-div mt-4 bg-primary">
+        <div>
+            <p class="reponsive-text-h4 text-light "> Download Registration Form </p>
+        </div>
+        <div>
+            <a type="button" class="btn btn-light text-dark shadow btn-responsive btn-sm"><strong>Download Form</strong></a>
+        </div>
+    </div>
+
+    <div class="fees-div">
+        <fieldset class="d-flex flex-column justify-content-center fieldset-container " style=" width: 90%;" >
+            <legend class="legend text-uppercase"><strong>FEES</strong></legend>
+            <div class=" ">
+                <div class="table table-responsive" style="align-self: center;">
+                    <table class="fees-table table-bordered reponsive-text-1 ">
+                        <tr class="bg-primary text-white bold-text text-center"><td>	CATEGORY	</td><td>		FEES	</td></tr>
+                        <tr ><td>	P.G. Student (Attendee)     </td><td>  2000/-	</td></tr>
+                        <tr><td>	P.G. Student(Presenter)    </td><td>		3000/- 	</td></tr>
+                        <tr><td>	Research Scholar                   </td><td>	 2000/-	</td></tr>
+                    </table>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+    <div class="fees-div">
+        <fieldset class="d-flex flex-column justify-content-center fieldset-container " style=" width: 90%;" >
+            <legend class="legend text-uppercase"><strong>Bank Details</strong></legend>
+            <div class="d-flex content-justify flex-column justify-content-center ">
+                <div class="d-flex flex-column text-center text-dark">
+                    <p class=" reponsive-text-1 bold-text">Bank Name: Union Bank of India, Ghulewadi, Sangamner.</p>
+                    <p class=" reponsive-text-1 bold-text">Account Name: Amrutvahini College of Engineering, Sangamner</p> 
+                    <p class=" reponsive-text-1 bold-text"> Account Number: 322501010033387</p> 
+                    <p class=" reponsive-text-1 bold-text">  IFSC Code: UBIN0532258</p>
+                    <p class=" reponsive-text-1 bold-text">  MICR Code: 605026001</p>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</div>
+{% endblock%}

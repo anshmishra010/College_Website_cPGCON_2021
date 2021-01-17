@@ -190,3 +190,49 @@ body{
     padding: 5%;
     color: black;
 }
+
+/* important dates */
+
+.table{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+}
+
+.table table{
+    align-self: center;
+}
+
+/* regisreation */
+
+.fees-table{
+    min-width: 70%;
+    max-width: 90%;
+}
+
+.fees-div{
+    display: flex;
+    min-width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.fees-div fieldset{
+    padding:1%;
+}
+
+.registration-form-download-div{
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid;
+    border-width: 1px;
+    border-radius: 20px;
+}
+
