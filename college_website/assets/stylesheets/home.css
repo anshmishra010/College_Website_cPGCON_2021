@@ -131,12 +131,6 @@ body{
     padding: 10px;
 }
 
-.contact-us{
-    width: 60%;
-    padding: 1%;
-    margin: 0px;
-}
-
 /* id-card */
 
 
@@ -243,4 +237,14 @@ body{
     padding-bottom: 5%;
     width: 100%;
     height: auto;
+}
+
+/* contant us */
+
+.contact-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
