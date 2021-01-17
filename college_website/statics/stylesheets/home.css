@@ -236,3 +236,11 @@ body{
     border-radius: 20px;
 }
 
+/* venue */
+
+.map-canvas{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 50%;
+}

@@ -15,3 +15,6 @@ def important_dates(request, *args, **kwargs):
 
 def registration(request, *args, **kwargs):
     return render(request, "registration.html", {})
+
+def venue(request, *args, **kwargs):
+    return render(request, "venue.html", {})
