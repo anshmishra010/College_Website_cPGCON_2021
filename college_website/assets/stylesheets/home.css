@@ -79,11 +79,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2%;
 }
+
+
 
 .banner-img img{
     align-self: center;
 }
+
 
 .center-panel{
     padding: 3%;

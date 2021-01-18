@@ -193,7 +193,8 @@ body, html{
     padding: 4%;
     min-width: 95%;
     box-shadow: 10px 10px 5px gray;
-    background-color:   #0451f8;
+    background-color:   
+    #0451f8;
     color: rgb(255, 193, 78);
     text-shadow: 10px;
 }
@@ -226,10 +227,15 @@ body, html{
     color: rgb(192, 51, 105);
 }
 
-.icon-white{
+.icon-skyblue{
+    color: white;
+}
+
+.icon-white:hover{
     font-size: 1.7em;
     color: white;
 }
+
 
 .icon-darkblue:hover{
     font-size: 1.7em;
@@ -244,4 +250,9 @@ body, html{
 .icon-red:hover{
     font-size: 1.7em;
     color:red;
+}
+
+.icon-skyblue:hover{
+    font-size: 1.7em;
+    color: rgb(8, 226, 255);
 }
