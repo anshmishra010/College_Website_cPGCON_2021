@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% load static%}
+{% block content %}
+<link href="{% static 'stylesheets/home.css'%}" rel="stylesheet" >
+<div class="container-xl text-primary  ">
+
+    <div class="widget-title text-primary p-2">
+        <div>
+            <h2 class="banner-heading"><strong>Venue</strong></h2>
+            <div class="borderbd"></div>
+        </div>
+    </div>
+
+
+  
+    <fieldset class="d-flex flex-column justify-content-start fieldset-container mt-4 shadow " >
+
+        <div class=" row ">
+           <div class=" d-flex flex-column justify-content-center col-12 col-lg-6 col-md-6 col-sm-12  ">
+                <img class="img-fluid" src="{% static 'images/college2.jpg'%}" alt="image" >
+           </div>
+           <div class="d-flex flex-column justify-content-center text-center col-12 col-lg-6 col-md-6 col-sm-12 ">
+                <p class="reponsive-text-h5  p-0   " style="color: gray; margin: 0px;  margin-top: 5%;">
+                    Sinhagad Technical Education Society's
+                </p>
+                <p class="reponsive-text-h4 text-danger p-0 m-0 ">
+                    Smt. Kashibai Navale College of Engineering (SKNCOE)
+                </p>
+                <p class="reponsive-text-1 text-secondary p-1">
+                    Survey No. 44/1, Off Sinhgad Road,<br>
+                    Vadgaon Budruk, Pune, Maharashtra 411041
+                </p>
+           </div>
+        </div>
+    </fieldset>
+
+    <div class="widget-title text-primary p-2">
+        <div>
+            <h2 class="banner-heading"><strong>Locate Us </strong></h2>
+            <div class="borderbd"></div>
+        </div>
+    </div>
+
+    <div class="map-canvas ">
+        <iframe style="border: #107fc9ab; border-style: solid;"
+            width="100%"
+            height="400px" 
+            src="https://maps.google.com/maps?q=smt.%20kasibai%20navle%20college%20of%20engineering,%20vadagoan&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+            frameborder="0"
+            scrolling="no" 
+            marginheight="0" 
+            marginwidth="0">
+         </iframe>
+    </div>
+</div>
+   
+{% endblock%}

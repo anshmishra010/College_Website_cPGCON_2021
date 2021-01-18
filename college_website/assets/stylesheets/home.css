@@ -14,10 +14,13 @@ body{
     margin-top: 5%;
     max-height: 700px;
     background-color:white;
+    z-index: 0;
 }
 
 .jumbotron-logo{
-    align-items: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .jumbotron-logo img{
@@ -26,20 +29,68 @@ body{
 }
 .jumbotron-title1 {
     font-weight: 400;
-    font-size: min(1.5vw, 1.5em);
+    font-size: max(min(1.4vw, 1.4em), 30%);
 }
 .jumbotron-title2 {
     font-weight: 700;
-    font-size: min(2.8vw, 2em);
+    font-size: max(min(2.6vw, 1.8em), 50%);
 
 }
 .jumbotron-title3 {
     font-weight: 600;
-    font-size: min(2.2vw,1.7em);
+    font-size: max(min(2.1vw,1.6em), 40%);
 }
 
+.jumbotron-title4 {
+    font-weight: 600;
+    font-size: max(min(1.6vw,1.2em), 30%);
+}
+
+.jumbotron-banner-title {
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: max(min(2.8vw, 2em), 70%);
+}
+
+.title-casing{
+    padding-top: 1%; 
+    padding-bottom: 1%; 
+    border-radius: 10px;
+}
+
+/* event-banner */
+.banner-heading{
+    font-weight: bold; font-size: min( max(2.8vh,2.8vw), 200%);
+    padding: 4%;
+    padding-bottom: 0px ;
+}
+
+.banner-title{
+    font-size: min(max(2vh,2vw), 30pt) ;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
+.banner-info-text{
+    padding : 4%;
+}
+
+.banner-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+
+
+.banner-img img{
+    align-self: center;
+}
+
+
 .center-panel{
-    padding: 0px;
+    padding: 3%;
 }
 .information-panel{
     padding : 0px 2%;
@@ -47,21 +98,14 @@ body{
    
 }
 
-.legend{
-    width: auto;
-    padding: 2%;
+
+
+
+.lead{
+    font-size: min(max(2vh,2vw), 90%);
+    word-spacing: 0.8vh;
 }
 
-.fieldset-container{
-    width: 100%;
-    height: auto;
-    min-height: 300px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #4285F4;
-    border-radius: 5px;
-    
-}
 
 /* side panel */
 
@@ -80,10 +124,131 @@ body{
 }
 
 .card-body{
-    min-height: 200px;
+    min-width: 100%;
+    width: 100%;
     max-width: 500px;
+    padding: 2%;
+  
 }
 
 .card-heading-text{
     padding: 10px;
+}
+
+/* id-card */
+
+
+.id-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    border: solid;
+    border-color: lightgray;
+    border-width: 0.1px;
+    margin: 2%;
+}
+
+.id-card div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.id-card-img img{
+    align-self: center;
+    border-radius: 100px;
+}
+
+.id-card-text{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+.id-card-name{
+   font-size: min( max(2.4vh,2.4vw), 90%);
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.id-card-post{
+    font-size: min( max(1.8vh,1.8vw), 60%);
+     font-weight: 200;
+     align-self: flex-start;
+     color: gray;
+     font-style : italic;
+ }
+
+#marquee{
+    padding: 5%;
+    color: black;
+}
+
+/* important dates */
+
+.table{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+}
+
+.table table{
+    align-self: center;
+}
+
+/* regisreation */
+
+.fees-table{
+    min-width: 70%;
+    max-width: 90%;
+}
+
+.fees-div{
+    display: flex;
+    min-width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.fees-div fieldset{
+    padding:1%;
+}
+
+.registration-form-download-div{
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid;
+    border-width: 1px;
+    border-radius: 20px;
+}
+
+/* venue */
+
+.map-canvas{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    height: auto;
+}
+
+/* contant us */
+
+.contact-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }

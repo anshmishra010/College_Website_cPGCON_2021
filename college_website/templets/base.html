@@ -2,30 +2,75 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Sinhagad Institute</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=2, minimum-scale=0.5, user-scalable=2">
+        <title> cPGCON | Sinhagad Institute</title>
         <link rel="stylesheet" href="{% static 'stylesheets\font-awesome-4.7.0\css\font-awesome.min.css' %}">
         <link type="text/css" href="{% static 'stylesheets/base.css' %}" rel="stylesheet">
         <link type="text/css" href="{% static 'stylesheets/bootstrap/bootstrap.css' %}" rel="stylesheet">
         <base href="/">
     </head>
    
-    <body>
-        <div>
-            {% include "navigation_bar.html" %}
+    <body id="body">
+        
+        {% include "navigation_bar.html" %}
+   
+        <div id="developer-popup" class="developer-popup text-light shadow-lg">
+
+            <span id="deleteMeetingClose" onclick="developer_popup_close_btn()" class="deleteMeetingClose">&times;</span>
+            <div class="widget-title text-primary mt-2">
+                <p class="reponsive-text-h3 "><strong>About Developers</strong></p>
+                <div class="borderbd"></div>
+            </div>
+        
+
+            <div class="row" style="height: 100%;">
+                <div class="col-12 col-lg-6 col-md-6 col-sm-12 developer-card-container">
+                    <div class=" developer-card shadow">
+                        <p class="reponsive-text-h3 m-0 p-0" style="font-family: cursive;">Pratik Patil</p>
+                        <p class="reponsive-text-xs"> SKNCOE-COMP (2019-2023)</p>
+                        <hr class="divider" >
+                        <div class="social">
+                            <a href="https://github.com/pratikap41 "  target="_blank" class="p-1" ><i class=" fa fa-github fa-lg footer-social-icon icon-cog icon-black  "></i> </a>
+                            <a href="https://www.linkedin.com/in/pratik-patil-9a14a71b3/" target="_blank" class="p-1"><i class=" fa fa-linkedin fa-lg footer-social-icon icon-cog icon-darkblue "></i> </a>
+                            <a href="https://www.instagram.com/pratikpatil22/  " target="_blank"  class="p-1"><i class=" fa fa-instagram fa-lg footer-social-icon icon-cog icon-purple "></i> </a>
+                            <a href="mailto:pratikap41@gmail.com "  target="_blank" class="p-1"><i class=" fa fa-envelope fa-lg footer-social-icon icon-cog icon-red "></i> </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-6 col-md-6 col-sm-12 developer-card-container">
+                    <div class=" developer-card shadow">
+                        <p class="reponsive-text-h3 m-0 p-0" style="font-family: cursive;">Ansh Mishra</p>
+                        <p class="reponsive-text-xs"> SKNCOE-COMP (2019-2023)</p>
+                        <hr class="divider" >
+                        <div class="social">
+                            <a href="https://github.com/anshmishra010" target="_blank" class="p-1"><i class=" fa fa-github fa-lg footer-social-icon icon-cog icon-black  "></i> </a>
+                            <a href="https://www.linkedin.com/in/ansh-mishra-9a9580199/ " target="_blank" class="p-1"><i class=" fa fa-linkedin fa-lg footer-social-icon icon-cog icon-darkblue "></i> </a>
+                            <a href="https://www.instagram.com/anshmishra010/" target="_blank" class="p-1"><i class=" fa fa-instagram fa-lg footer-social-icon icon-cog icon-purple "></i> </a>
+                            <a href="mailto:anshmishra9415@gmail.com" target="_blank" class="p-1"><i class=" fa fa-envelope fa-lg footer-social-icon icon-cog icon-red "></i> </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            
         </div>
-        <Div class="wrapper">
-       
+
+        <Div id="wrapper" class="wrapper">
             {% block content %}
                 replace me
             {% endblock %}
         </Div>
-        <div class="footer-wrapper">
+        <div id="footer-wrapper" class="footer-wrapper">
             {% include "footer.html" %}
         </div>
       
       
     </body>
-    
+
+    <script src="{% static 'scripts/base.js'%}" ></script>
     <script src="{% static 'scripts/bootstrap/bootstrap.bundle.min.js'%}" ></script>
     <script src="{% static 'scripts/jquery/dist/jquery.min.js'%}"></script>
     <script  src="{% static 'scripts/popper.js/dist/umd/popper.min.js'%}"></script>

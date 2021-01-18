@@ -2,57 +2,67 @@
 <link href="{% static 'stylesheets/footer.css'%}" rel="stylesheet" type="text/css">
 
 <div class="container-fluid bg-primary" >
-    <div class="container-xl ">
+    <div class="container-xl p-0 ">
         <div class="footer-top row">
                 <div class="footer-top-left col-lg-6 col-md-12 col-sm-12 col-xs-12">
 
-                    <div class="footer-logo">
-                        <div class="footer-logo-img">
-                            <img  src="{% static 'logos/si-logo.png' %}" width = "100px" height="100px">
+                    <div class="footer-logo ">
+                        <div class="footer-logo-img p-0">
+                            <img  class="img-fluid" src="{% static 'logos/si-logo.png' %}">
                         </div>
-                        <div class ="footer-logo-text">
-                        <h4 class="p-0 m-0">Sinhgad Institutes</h4>
-                        <h5 class="p-0 m-0">Empowering Academic Excellence </h5>
+                        <div class ="footer-logo-text ">
+                            <h5 class="p-0 m-0 " id = "primary-logo-text">Sinhgad Institutes</h5>
+                            <p class="p-0 m-0 " id = "secondary-logo-text">Empowering Academic Excellence </p>
                         </div>
                     </div>
                     <div class="footer-slogan">
-                        <p class="text-justify m-0">
+                        <p class="text-justify m-0 ">
                             We are Changing the World & our Weapon is Quality Education, 
                             The overall goal of the department is to make brilliant and dynamic students to meet the industry challenges.
                         </p>
                     </div>
 
-                    <div style="width: 500px;">
+                    <div >
                     <hr class="divider bg-white p-0 ">
                     </div>
 
 
                     <div class="social">
-                        <a><i class=" fa fa-twitter fa-lg footer-social-icon icon-cog icon-white"></i> </a>
-                        <a><i class=" fa fa-facebook fa-lg footer-social-icon icon-cog icon-white"></i> </a>
-                        <a><i class=" fa fa-instagram fa-lg footer-social-icon icon-cog icon-white"></i> </a>
-                        <a><i class=" fa fa-youtube fa-lg footer-social-icon icon-cog icon-white"></i> </a>
+                        <a class="p-1"><i class=" fa fa-twitter fa-lg footer-social-icon icon-cog icon-skyblue"></i> </a>
+                        <a  class="p-1"><i class=" fa fa-facebook fa-lg footer-social-icon icon-cog icon-darkblue"></i> </a>
+                        <a  class="p-1"><i class=" fa fa-instagram fa-lg footer-social-icon icon-cog icon-purple"></i> </a>
+                        <a  class="p-1"><i class=" fa fa-youtube fa-lg footer-social-icon icon-cog icon-red"></i> </a>
                     </div>
                 </div>
             
-            <div class="footer-top-right col-md-12 col-sm-12 col-lg-6 col-xs-12 row">
-                <ul class="list-unstyled col-4 ">
-                    <li  class="footer-menu-title">Navigation</a></li>
-                    <li ><a href="" class="footer-menu-item">Home</a></li>
-                    <li ><a href="" class="footer-menu-item">Download</a></li>
-                    <li ><a href="" class="footer-menu-item">Call For Paper</a></li>
-                    <li ><a href="" class="footer-menu-item">Important Dates</a></li>
+            <div class="footer-top-right col-md-12 col-sm-12 col-lg-6 col-xs-12 row justify-content-start">
+                <ul class="list-unstyled col-6 col-lg-3 col-md-6 col-sm-6  justify-content-start p-2">
+                    <li  class="footer-menu-title">Navigation</li>
+                    <li ><a href=" " class="footer-menu-item">Home</a></li>
+                    <li ><a href="/call-for-paper/" class="footer-menu-item">Call For Paper</a></li>
+                    <li ><a href="/important-dates/" class="footer-menu-item">Important Dates</a></li>
+                    <li ><a href="/registration/" class="footer-menu-item">Registration</a></li>
                 </ul>
-                <ul  class="list-unstyled col-4">
+                <ul class="list-unstyled col-6 col-lg-3 col-md-6 col-sm-6  justify-content-start p-2">
+                    <li  class="footer-menu-title">Download</li>
+                    <li ><a href=" " class="footer-menu-item">option 1</a></li>
+                    <li ><a href="" class="footer-menu-item">option 2</a></li>
+                    <li ><a href="" class="footer-menu-item">option 3</a></li>
+               
+                </ul>
+
+                <ul  class="list-unstyled col-6 col-lg-3 col-md-6 col-sm-6  justify-content-start p-2">
                     <li href=" " class="footer-menu-title">About</a></li>
-                    <li><a href="" class="footer-menu-item" >Contact Us</a></li>
-                    <li><a href="" class="footer-menu-item">About Institue</a></li>
-                    <li><a href="" class="footer-menu-item">Comittee</a></li>
+                    <li><a href="/contact-us/" class="footer-menu-item" >Contact Us</li>
+                    <li><a href="http://cms.sinhgad.edu/sinhgad_engineering_institutes/skncoe_vadgaon/institute_details.aspx" class="footer-menu-item">About Institue</a></li>
+                    <li ><a href="/venue/" class="footer-menu-item">Venue</a></li>
+                    <li><a href="/committee/" class="footer-menu-item">Comittee</a></li>
                 </ul>
-                <ul  class="list-unstyled col-4">
-                    <li href=" " class = "footer-menu-title">About Developers</a></li>
-                    <li><a href="" class="footer-menu-item">Contact Developers</a></li>
-                    <li><a href="" class="footer-menu-item">Github</a></li>
+
+                <ul  class="list-unstyled col-6 col-lg-3 col-md-6 col-sm-6  justify-content-start p-2 ">
+                    <li   class = "footer-menu-title" >About Developers</li>
+                    <li class="footer-menu-item"  onclick=" about_developer_onclick() ">Contact </li>
+                    <li><a href="https://github.com/pratikap41/college_website/tree/master/college_website" class="footer-menu-item">Github</a></li>
                 </ul>
 
             </div>
@@ -61,7 +71,7 @@
             <hr class="divider bg-white ">
      
     
-        <div class="footer-bottom">
+        <div class="footer-bottom text-light">
             <P> Trade Marks belong to the respective owners. Copyright &copy; 2021 Sinhgad Technical Education Society All rights reserved.</P>
         </div>
     </div>

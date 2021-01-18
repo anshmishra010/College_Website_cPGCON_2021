@@ -2,16 +2,59 @@
 {% load static%}
 {% block content %}
 <link href="{% static 'stylesheets/home.css'%}" rel="stylesheet" >
-<div class="container-sm mx-auto mt-5  ">
-    <fieldset class="fieldset-container shadow">
-        <legend class="legend text-uppercase"><strong>Connect with us</strong></legend>
-        <p class=" text-justify m-3 px-2 ">
-            <ul class="list-unstyled text-center ">
-                <li class="h5 "><strong>Email : </strong>sinhagad@gmail.com</li>
-                <li class="h5 "><strong>Prof. A.B.ABCD </strong>(number)</li>
-                <li class="h5 "><strong>Prof. A.B.ABCD </strong>(number)</li>
-            </ul>
-        </p>
+<div class="container-xl contact-us ">
+    <div class="widget-title text-primary p-2">
+        <h2 class="banner-heading"><strong>Contact Us</strong></h2>
+        <div class="borderbd"></div>
+    </div>
+
+    <fieldset class="d-flex flex-column justify-content-start fieldset-container shadow" style="min-width: 100%;">
+        <legend class="legend text-uppercase text-primary "><strong>Connect With Us</strong></legend>
+        <div class="text-light">
+            <div class="row">
+                <div  class="col-lg-6 col-md-6 col-sm-12 col-12 p-2">
+                    <div class="bg-primary contact-card pt-2">
+                        <p class="m-0 p-0 reponsive-text-h4">
+                            Prof.M.N.Navle
+                        </p>
+                        <p class="reponsive-text-1">
+                            Founder sinhgad Institue
+                        </p>
+                        <p class="reponsive-text-1">
+                            1234567890
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 p-2">
+                    <div class="bg-primary contact-card pt-2 ">
+                        <p class="m-0 p-0 reponsive-text-h4">
+                            Prof.M.N.Navle
+                        </p>
+                        <p class="reponsive-text-1">
+                            Founder sinhgad Institue
+                        </p>
+                        <p class="reponsive-text-1">
+                            1234567890
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="bg-primary contact-card ">
+                    <p class=" pt-2 reponsive-text-h3">
+                        Email
+                    </p>
+                    <p class="reponsive-text-h5">
+                        <a  class="text-light" href="mailto:cpgcon2021@sinhagad.edu">cpgcon2021@sinhagad.edu</a>
+                    </p>
+                </div>
+            </div>
+        </div>
     </fieldset>
+    <br>
+    <br>
 </div>
 {% endblock%}

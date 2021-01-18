@@ -2,8 +2,11 @@ body, html{
     height: 90%;
     width: 100%;
     min-height: 100%;
+    min-width: 100%;
     padding: 0;
     margin: 0;
+    font-size: 15pt;
+    overflow-x: hidden;
 }
 .wrapper{
     min-height: 100%;
@@ -13,17 +16,243 @@ body, html{
     flex-direction: column;
     flex-grow: 1;
     align-items: center;
-    /* height: 100%; */
-    /* padding-bottom:15vw; */
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding-bottom: 120px;
+    padding-bottom: 420px;
+    margin-bottom: -400px;
+    z-index: 0;
 }
+
+
 
 .footer-wrapper{
     display: flex;
     position: static;
     width: 100%;
     align-self: bottom;
-    margin-top:  -120px;
+   
+}
+
+.legend{
+    font-size: min(max(2vh,2vw), 30pt) ;
+    width: auto;
+    padding: 5%;
+    margin: 0px;
+}
+
+
+.fieldset-container{
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #4285F4;
+    border-radius: 5px;
+    padding: 5%;
+}
+
+.reponsive-text-xs{
+    font-size: min( max(1.2vh,1.2vw), 60%);
+}
+
+.reponsive-text-0{
+    font-size: min( max(1.5vh,1.5vw), 80%);
+}
+
+.reponsive-text-1{
+    font-size: min( max(1.6vh,1.6vw), 90%);
+}
+
+.reponsive-text-h5{
+    font-weight: bold;
+    font-size: min( max(1.8vh,1.8vw), 100%);
+}
+
+.reponsive-text-h4{
+    font-weight: bold;
+    font-size: min( max(2vh, 2vw), 110%);
+}
+
+.reponsive-text-h3{
+    font-weight: bold;
+    font-size: min( max(2.2vh, 2.2vw), 130%);
+}
+
+
+.bold-text{
+    font-weight: bold;
+}
+
+.borderbd {
+    position: relative;
+    width: 180px;
+    background:#007bff;
+    height: 2px;
+    margin: 10px auto;
+}
+
+.borderbd:before {
+    position: absolute;
+    border-radius: 100%;
+    left: 0px;
+    content: "";
+    width: 10px;
+    background: #007bff;
+    height: 10px;
+    top: -5px;
+}
+
+.borderbd:after {
+    position: absolute;
+    border-radius: 100%;
+    right: 0px;
+    content: "";
+    width: 10px;
+    background: #007bff;
+    height: 10px;
+    top: -5px;
+}
+
+.widget-title {
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+
+.head_left_underline:after {
+    border-top: 2px solid #007bff;
+    display: block;
+    width: 40px;
+    content: "";
+    margin-top: 10px;
+}
+
+.deleteMeetingClose {
+    font-size: 2em;
+    cursor: pointer;
+    position: absolute;
+    left: 15px;
+    top: 5px;
+    color: gray;
+}
+
+.deleteMeetingClose:hover{
+    font-size: 2.2em;
+    color: red;
+}
+
+.developer-popup{
+    position: fixed;
+    width: 50%;
+    min-width: 500px;
+    min-height: 400px;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+    background-color: white;
+    border: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #007bff ;
+    visibility: hidden;
+}
+
+@media (max-width: 768px){
+    .developer-popup{
+        width: 90%;
+        min-width: 90%;
+
+    }
+}
+
+.developer-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding : 5%;
+    min-height: 100%;
+}
+
+.developer-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    border-radius: 10px;
+    min-height: 80%;
+    min-width: 90%;
+    background-color:  #007bff;
+
+}
+
+.developer-card:hover{
+    padding: 4%;
+    min-width: 95%;
+    box-shadow: 10px 10px 5px gray;
+    background-color:   
+    #0451f8;
+    color: rgb(255, 193, 78);
+    text-shadow: 10px;
+}
+
+
+/* icon color */
+
+.icon-white{
+    color: white;
+}
+
+.icon-purple{
+    color:white;
+}
+
+.icon-darkblue{
+    color:white;
+}
+
+.icon-black{
+    color:white;
+}
+
+.icon-red{
+    color:white;
+}
+
+.icon-purple:hover{
+    font-size: 1.7em;
+    color: rgb(192, 51, 105);
+}
+
+.icon-skyblue{
+    color: white;
+}
+
+.icon-white:hover{
+    font-size: 1.7em;
+    color: white;
+}
+
+
+.icon-darkblue:hover{
+    font-size: 1.7em;
+    color: rgb(1, 1, 196);
+}
+
+.icon-black:hover{
+    font-size: 1.7em;
+    color:black;
+}
+
+.icon-red:hover{
+    font-size: 1.7em;
+    color:red;
+}
+
+.icon-skyblue:hover{
+    font-size: 1.7em;
+    color: rgb(8, 226, 255);
 }
