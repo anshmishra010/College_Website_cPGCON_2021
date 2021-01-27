@@ -97,27 +97,31 @@ body{
     background-image: linear-gradient(to right, #f1f1f1, rgb(122, 122, 122));
 }
 
-@media (max-width: 576px) {
-    #carousel {
-        position: fixed;
-      visibility: hidden;
-    }  
-
+#carousel {
+    position: fixed;
+    visibility: hidden;
 }
 
-@media (min-width: 576px) {
+
+
+@media (min-width: 600px) {
     #event-banner {
         position: fixed;
-      visibility: hidden;
-    }  
+        visibility: hidden;
+    }
 
     #keyspeaker-mobile{
         position: fixed;
         visibility: hidden;
     }
 
+    #carousel {
+        position: static;
+        visibility: visible;
+    }
 
 }
+
 /* center pannel */
 
 .center-panel{
