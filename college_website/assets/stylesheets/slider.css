@@ -1,0 +1,61 @@
+.col-sm-7 div {
+    padding: 50px;
+}
+
+.bg1 {
+    background-color: #f1f1f1;
+}
+
+.col-sm-7 p {
+    text-align: justify;
+}
+
+.col-sm-7 div h2 {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+
+}
+
+.carousel-inner .item:nth-child(1) {
+    background: #f1f1f1;
+}
+
+.carousel-inner .item:nth-child(2) {
+    background: #f1f1f1;
+}
+
+.carousel .carousel-control {
+    background-image: none;
+}
+
+.carousel .carousel-control .glyphicon-chevron-left {
+    left: 10px;
+}
+
+/* .col-sm-5{
+    padding: 10px;
+} */
+
+/* img {
+    width: 100%;
+} */
+
+.custom-row {
+
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.font1 {
+    font-size: 23px;
+    color: #212529;
+}
+
+.align1 {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+

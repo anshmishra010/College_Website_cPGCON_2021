@@ -20,10 +20,10 @@
                     <p class="text-center text-uppercase jumbotron-title1 text-muted h3  m-0 mt-2"> In Association With </p>
                     <p class="text-center text-uppercase jumbotron-title4 h2 m-0 mt-2">Board of Studies in Computer Engineering</p>
                     <p class="text-center text-uppercase jumbotron-title4 h2 m-0 ">Savitribai Phule Pune University, Pune</p>
-                    <p class="text-center text-primary jumbotron-banner-title h1  "><i>" cPGCON 2021 "</i></p>
+                    <p class="text-center text-primary jumbotron-banner-title h1  "><i>" cPGCON - 2021 "</i></p>
                 </div>
                 <div class="col-2 jumbotron-logo p-0" >
-                    <img src="{% static 'logos/sppu_logo.png' %}"/>
+                    <img src="{% static 'logos/sppu_logo2.png' %}"/>
                 </div>
             </div>
             <div class="d-flex justify-content-center flex-column">
@@ -38,7 +38,7 @@
     </div>
 
     <!-- event banner -->
-    <div class="container-fluid   mt-5" style="background-color: #f1f1f1">
+    <div  id="event-banner" class="container-fluid   mt-5" style="background-color: #f1f1f1">
         <div class="widget-title text-primary">
             <h2 class="banner-heading"><strong>About <span style="text-transform: lowercase !important">c</span>PGCON 2021</strong></h2>
             <div class="borderbd"></div>
@@ -46,7 +46,7 @@
         <div class="container-xl">
             
             <div class="banner-info-text row ">
-                <div class=" d-flex flex-column text-justify col-12 col-lg-7 col-md-12 col-sm-12 col-xs-12 order-last order-lg-first order-md-first order-sm-last">
+                <div class=" d-flex flex-column text-justify col-12 col-lg-7 col-md-12 col-sm-12 col-xs-12 order-last order-lg-first order-md-first order-sm-first order-xs-last">
                     <h3 class="head_left_underline banner-title text-danger">cPGCON 2021</h3>
                     <p class=" lead ">
                         cPGCON 2021 is a Post Graduate Conference, an annual 
@@ -60,7 +60,7 @@
                         work on the frontiers of knowledge and skills in the area.
                     </p>
                 </div>
-                <div class=" banner-img col-12 col-lg-5 col-md-12 col-sm-12 col-xs-12 order-first  order-lg-last order-md-last order-sm-first ">
+                <div class=" banner-img col-12 col-lg-5 col-md-12 col-sm-12 col-xs-12 order-first  order-lg-last order-md-last order-sm-last order-xs-first">
                     <img class="img-fluid " src="{% static 'logos/cPGCON .png' %}">
                 </div>
             </div>
@@ -70,11 +70,123 @@
 
     </div>
 
+    <!-- carousel -->
+    <div  id = "carousel" class="container-fluid mt-5 p-0" style="background-color: #f1f1f1; " >
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+              </ol>
+
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                        <div class="widget-title text-primary">
+                            <h2 class="banner-heading"><strong>About <span style="text-transform: lowercase !important">c</span>PGCON 2021</strong></h2>
+                            <div class="borderbd"></div>
+                        </div>
+                        <div class="container-xl">
+                            <div class="banner-info-text row ">
+                                <div class=" d-flex flex-column text-justify justify-content-center col-12 col-lg-7 col-md-12 col-sm-12 col-xs-12 order-last order-lg-first order-md-first order-sm-first order-xs-last" style="min-height: 500px;">
+                                    <h3 class="head_left_underline banner-title text-danger">cPGCON 2021</h3>
+                                    <p class=" lead " >
+                                        cPGCON 2021 is a Post Graduate Conference, an annual 
+                                        event for PG students and research scholars, organized by 
+                                        the Department of Computer Engineering, Smt. Kashibai 
+                                        Navale College of Engineering, Pune in association with 
+                                        Board of Studies in Computer Engineering, Savitribai Phule 
+                                        Pune University. cPGCON2021 will provide a platform to 
+                                        discuss latest innovations, share experiences and learn new 
+                                        developments in the various domains. It will work as a forerunner and facilitator for PG students theoretical and practical studies and research scholars will pose their research 
+                                        work on the frontiers of knowledge and skills in the area.
+                                    </p>
+                                </div>
+                                <div class=" banner-img col-12 col-lg-5 col-md-12 col-sm-12 col-xs-12 order-first  order-lg-last order-md-last order-sm-last order-xs-first ">
+                                    <img class="img-fluid " src="{% static 'logos/cPGCON .png' %}">
+                                </div>
+                            </div>  
+                        </div>  
+            </div>
+            <div class="carousel-item">
+
+                        <div class="widget-title text-primary">
+                            <h2 class="banner-heading"><strong> <span style="text-transform: lowercase !important">Keynote Speaker</span></strong></h2>
+                            <div class="borderbd"></div>
+                        </div>
+                        <div class="container-xl">
+                            <div class="banner-info-text row ">
+                                <div class=" d-flex flex-column justify-content-center text-justify col-12 col-lg-7 col-md-12 col-sm-12 col-xs-12 order-last order-lg-first order-md-first order-sm-first order-xs-last" style="min-height: 500px;">
+                                    <h3 class="head_left_underline banner-title text-danger pb-3">
+                                        honourable Dr. Hemant Dhar
+                                    </h3>
+                                    <ul class="p-1">
+                                        <li>
+                                            <p class=" reponsive-text-h5 " >
+                                                Senior Scientist at TCS Research & Innovation,<br>
+                                                 <span class="text-center">Bhubaneswar/ Bangalore. </span> <br>
+                                            </p>
+
+                                        </li>
+                                        <li>
+                                            <p class=" reponsive-text-h5  ">
+                                                MTech and PhD from IIT Bombay<br>
+                                            </p>
+
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
+                                <div class=" banner-img col-12 col-lg-5 col-md-12 col-sm-12 col-xs-12 order-first  order-lg-last order-md-last order-sm-last order-xs-first ">
+                                    <img class="img-fluid " src="{% static 'images/person/HemantDhar.jpeg' %}" style="border-radius:1000px ;">
+                                </div>
+                            </div>  
+                        </div>  
+                </div>  
+
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon " aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+
     <!-- central panal -->
     <div class="container-xl p-0">
             <div class="container-fluid row center-panel m-0">
                 <!-- information panal -->
                 <div class="col-lg-8 col-mid-8 col-sm-12 information-panel ">
+
+
+                    <div id="keyspeaker-mobile" class="d-flex mb-3 pt-4">
+                        <fieldset class="d-flex flex-column justify-content-center shadow-sm " style=" border: 1px solid  #007bff; border-radius:10px; padding:5%; ">
+                            <div class="widget-title text-primary p-2">
+                                <h2 class="banner-heading reponsive-text1"><strong>Keynote Speaker</strong></h2>
+                                <div class="borderbd"></div>
+                            </div>
+                          
+                            <div class="row">
+                                    <div class="d-flex col-4 justify-content-center p-2">
+                                        <div class="">
+                                            <img class="img-fluid " src="{% static 'images/person/HemantDhar.jpeg' %}"  alt="college_image" style="border-radius: 1000px;" >
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column text-justify  col-8 justify-content-center">
+                                        <h3 class="head_left_underline banner-title text-danger m-0 p-0 pb-2">
+                                            honourable Dr. Hemant Dhar
+                                        </h3>
+                                        <p class=" reponsive-text-1 text-justify">
+                                            Senior Scientist at TCS Research & Innovation, Bhubaneswar/ Bangalore<br>
+                                            MTech and PhD from IIT Bombay<br>
+                                        </p>
+                                    </div>
+                            </div>
+                        </fieldset>
+                    </div>
+
+        
 
                     <div class="d-flex mb-3">
                         <fieldset class="d-flex flex-column justify-content-center fieldset-container " >
@@ -239,7 +351,7 @@
                             <div class="id-card">
                                 <div class="row">
                                     <div class="id-card-img col-4" >
-                                        <img src="{% static 'images/navle.jpg'%}" height="70px" width="70px"> 
+                                        <img src="{% static 'images/person/NRKarmalkar.jpeg'%}" height="70px" width="70px"> 
                                     </div>
                                     <!-- <div class="col-1 m-0 p-0"></div> -->
                                     
@@ -253,7 +365,7 @@
                             <div class="id-card">
                                 <div class="row">
                                     <div class="id-card-img col-4" >
-                                        <img src="{% static 'images/navle.jpg'%}" height="70px" width="70px"> 
+                                        <img src="{% static 'images/person/MGChaskar.jpg'%}" height="70px" width="70px"> 
                                     </div>
                                     <!-- <div class="col-1 m-0 p-0"></div> -->
                                     
@@ -282,7 +394,7 @@
                             <div class="id-card">
                                 <div class="row">
                                     <div class="id-card-img col-4" >
-                                        <img src="{% static 'images/navle.jpg'%}" height="70px" width="70px"> 
+                                        <img src="{% static 'images/person/VarshaPatil.jpeg'%}" height="70px" width="70px"> 
                                     </div>
                                     <!-- <div class="col-1 m-0 p-0"></div> -->
                                     
@@ -297,7 +409,7 @@
                             <div class="id-card">
                                 <div class="row">
                                     <div class="id-card-img col-4" >
-                                        <img src="{% static 'images/navle.jpg'%}" height="70px" width="70px"> 
+                                        <img src="{% static 'images/person/KRBorole.jpeg'%}" height="70px" width="70px"> 
                                     </div>
                                     <!-- <div class="col-1 m-0 p-0"></div> -->
                                     
@@ -323,7 +435,7 @@
                             <div class="id-card">
                                 <div class="row">
                                     <div class="id-card-img col-4" >
-                                        <img src="{% static 'images/navle.jpg'%}" height="70px" width="70px"> 
+                                        <img src="{% static 'images/person/PNMahalle.jpeg'%}" height="70px" width="70px"> 
                                     </div>
                                     <!-- <div class="col-1 m-0 p-0"></div> -->
                                     
@@ -367,12 +479,12 @@
                                 <div class="id-card">
                                     <div class="row">
                                         <div class="id-card-img col-4" >
-                                            <img src="{% static 'images/navle.jpg'%}" height="70px" width="70px"> 
+                                            <img src="{% static 'images/person/VaishaliDeshmukh.jpeg'%}" height="70px" width="70px"> 
                                         </div>
                                         <!-- <div class="col-1 m-0 p-0"></div> -->
                                         
                                         <div class="id-card-text col-8  flex-column ">
-                                            <p class="id-card-name text-danger m-0 " >Dr. Vaishali S. Deshmukh</p>
+                                            <p class="id-card-name text-danger m-0 " >Dr.Vaishali S. Deshmukh</p>
                                      
                                         </div>
                                     </div>

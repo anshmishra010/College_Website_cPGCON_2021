@@ -61,7 +61,7 @@
     padding-bottom: 2%;
     padding-right: 20%;
     padding-left: 0px;
-    color: lightgray;
+    color: rgba(255, 255, 255, 0.897);
     display: flex;
     width: 100%;
     height: auto;
@@ -98,7 +98,7 @@
 
 .footer-menu-item{
     text-decoration: none;
-    color: lightgray;
+    color: rgba(255, 255, 255, 0.822);
     font-size: 75%;
     cursor: hand;
 
@@ -121,7 +121,7 @@
 
 .footer-bottom{
     display: flex;
-    color: lightgray;
+    color: rgba(255, 255, 255, 0.822);
     align-items: center;
     justify-content: center;
     font-weight: lighter;

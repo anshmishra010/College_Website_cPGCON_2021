@@ -73,6 +73,9 @@ body{
 
 .banner-info-text{
     padding : 4%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    min-height: 100%;
 }
 
 .banner-img{
@@ -83,11 +86,39 @@ body{
 }
 
 
-
 .banner-img img{
     align-self: center;
 }
 
+.carousel-control-prev:hover{
+    background-image: linear-gradient(to left, #f1f1f1, rgb(122, 122, 122));
+}
+.carousel-control-next:hover{
+    background-image: linear-gradient(to right, #f1f1f1, rgb(122, 122, 122));
+}
+
+@media (max-width: 576px) {
+    #carousel {
+        position: fixed;
+      visibility: hidden;
+    }  
+
+}
+
+@media (min-width: 576px) {
+    #event-banner {
+        position: fixed;
+      visibility: hidden;
+    }  
+
+    #keyspeaker-mobile{
+        position: fixed;
+        visibility: hidden;
+    }
+
+
+}
+/* center pannel */
 
 .center-panel{
     padding: 3%;
@@ -110,7 +141,7 @@ body{
 /* side panel */
 
 .side-panel{
-    padding: 10px 2%;
+    padding: 3% 2%;
     color: white;
 }
 

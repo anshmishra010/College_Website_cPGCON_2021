@@ -223,7 +223,7 @@ body, html{
 }
 
 .icon-purple:hover{
-    font-size: 1.7em;
+    font-size: 1.5em;
     color: rgb(192, 51, 105);
 }
 
@@ -232,27 +232,27 @@ body, html{
 }
 
 .icon-white:hover{
-    font-size: 1.7em;
+    font-size: 1.5em;
     color: white;
 }
 
 
 .icon-darkblue:hover{
-    font-size: 1.7em;
+    font-size: 1.5em;
     color: rgb(1, 1, 196);
 }
 
 .icon-black:hover{
-    font-size: 1.7em;
+    font-size: 1.5em;
     color:black;
 }
 
 .icon-red:hover{
-    font-size: 1.7em;
+    font-size: 1.5em;
     color:red;
 }
 
 .icon-skyblue:hover{
-    font-size: 1.7em;
+    font-size: 1.5em;
     color: rgb(8, 226, 255);
 }
